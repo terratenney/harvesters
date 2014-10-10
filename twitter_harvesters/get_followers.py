@@ -82,7 +82,7 @@ def run_get_followers():
             get_followers(user)
 
 
-threading.Thread(target=run_get_followers, name="GetFollowers").start()
+
 
 ###############################################################################################################
 
@@ -138,3 +138,4 @@ def run_get_followers1():
 
 
 threading.Thread(target=run_get_followers1, name="GetFollowers").start()
+threading.Thread(target=run_get_followers, name="GetFollowers").start()
